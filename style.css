@@ -157,9 +157,10 @@ nav ul li a:hover {
 	width: 1138px;
 	display: inline-block;	
 	margin-left: 105px;
-	margin-top: 111px;
+	margin-top: 61px;
 	margin-bottom: 124px;
 	clear: both;
+	border-top: 1px solid #eeeeee;	
 }
 
 .vert_text{
@@ -167,7 +168,8 @@ nav ul li a:hover {
 	height: 375px;
 	display: block;
 	float: left;
-	font-size: 15pt;	
+	font-size: 15pt;
+	margin-top: 50px;	
 }
 
 .vert_text h1 {
@@ -188,6 +190,7 @@ nav ul li a:hover {
 	color: #aaaaaa;
 	font-size: 21pt;
 	font-weight: bold;
+	margin-top: 50px;
 }
 
 .square p {
@@ -199,6 +202,7 @@ nav ul li a:hover {
 #second_vertical .square {
 	float: left;
 	height: 415px;
+	margin-top: 44px;
 }
 
 #second_vertical .square p {	
@@ -207,6 +211,7 @@ nav ul li a:hover {
 
 #second_vertical .vert_text {
 	float: right;
+	margin-top: 44px;
 }
 
 #second_vertical {
@@ -216,6 +221,7 @@ nav ul li a:hover {
 	margin-left: 105px;
 	margin-bottom: 81px;
 	clear: both;
+	border-top: 1px solid #eeeeee;
 }
 
 /*third vertical*/
@@ -247,7 +253,18 @@ footer {
 }
 
 footer p {
+	display: block;
+	float: left;
 	font-size: 10pt;
 	padding-top: 85px;
+	margin-right: 5px;
 }
 
+footer a {	
+	display: block;
+	float: left;
+	font-size: 10pt;
+	padding-top: 85px;
+	margin-right: 5px;
+	text-decoration: none;
+}
