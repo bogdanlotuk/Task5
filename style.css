@@ -108,6 +108,11 @@ nav ul li a:hover {
 	width: 1110px;
 }
 
+#articles h3 {
+	font-size: 22pt;
+	font-weight: normal;
+}
+
 #circle {
 	content: "";
 	width: 140px;
