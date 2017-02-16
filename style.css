@@ -79,6 +79,7 @@ nav ul li a:hover {
 	text-align: center;
 	color: #ffffff;
 	font-weight: bold;	
+	text-shadow: 0px 1px black;
 }
 
 #measure h1 {
