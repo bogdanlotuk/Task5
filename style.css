@@ -4,8 +4,7 @@
 	font-family: Arial, sans-serif;
 }
 
-body {
-	width: 1348px;
+body {	
 	height: 2713px;
 }
 
@@ -16,14 +15,14 @@ body {
 }
 
 /*Navigation*/
-.navigation {
+nav {
 	display: inline-block;
 	height: 52px;
-	width: 1140px;
+	width: 80%;
 	border: 1px solid black;
 	border-radius: 5px;
 	background-color: #222222;		
-	margin: 20px 105px;
+	margin: 20px 10%;
 }
 
 nav ul li {
@@ -106,7 +105,7 @@ nav ul li a:hover {
 
 /*Three horizontal articles*/
 #articles {
-	width: 1110px;
+	width: 1110px;	
 }
 
 #articles h3 {
@@ -161,11 +160,9 @@ nav ul li a:hover {
 	height: 375px;
 	width: 1138px;
 	display: inline-block;	
-	margin-left: 105px;
-	margin-top: 61px;
-	margin-bottom: 124px;
+	margin: 61px 15% 124px 15%;
 	clear: both;
-	border-top: 1px solid #eeeeee;	
+	border-top: 1px solid #eeeeee;
 }
 
 .vert_text{
@@ -208,6 +205,7 @@ nav ul li a:hover {
 	float: left;
 	height: 415px;
 	margin-top: 44px;	
+	clear: both;
 }
 
 #second_vertical .square p {	
@@ -222,9 +220,8 @@ nav ul li a:hover {
 #second_vertical {
 	height: 415px;
 	width: 1138px;
-	display: inline-block;	
-	margin-left: 105px;
-	margin-bottom: 81px;
+	display: inline-block;
+	margin: 0px 15% 81px 15%;	
 	clear: both;
 	border-top: 1px solid #eeeeee;
 }
@@ -234,7 +231,7 @@ nav ul li a:hover {
 	height: 456px;
 	width: 1138px;
 	display: inline-block;	
-	margin-left: 105px;
+	margin: 0px 15% 0px 15%;	
 	clear: both;	
 }
 
