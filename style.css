@@ -1,7 +1,7 @@
 * {
 	padding: 0px;
 	margin: 0px auto;
-	font-family: Arial, sans-serif;
+	font-family: Arial, sans-serif;	
 }
 
 body {	
@@ -9,7 +9,7 @@ body {
 }
 
 #top {
-	width: 100%;
+	width: 90%;
 	height: 500px;
 	background-color: #777777;
 }
@@ -79,6 +79,7 @@ nav ul li a:hover {
 	color: #ffffff;
 	font-weight: bold;	
 	text-shadow: 0px 1px black;
+	width: 1110px;
 }
 
 #measure h1 {
@@ -89,10 +90,10 @@ nav ul li a:hover {
 
 #measure p {
 	font-size: 16pt;
-	margin-bottom: 27px;
+	margin-bottom: 27px;	
 }
 
-#measure button {
+#measure button {	
 	height: 46px;
 	width: 151px;
 	background-color: #337ab7;
@@ -105,7 +106,8 @@ nav ul li a:hover {
 
 /*Three horizontal articles*/
 #articles {
-	width: 1110px;	
+	width: 1110px;
+	height: 420px;	
 }
 
 #articles h3 {
@@ -156,13 +158,19 @@ nav ul li a:hover {
 }
 /*Three vertical articles*/
 /*first_vertical*/
+.vertical_articles {
+	width: 1110px;	
+	margin: 0px auto;	
+}
+
 #first_vertical {
 	height: 375px;
-	width: 1138px;
+	width: 1110px;
 	display: inline-block;	
-	margin: 61px 15% 124px 15%;
+	margin-top: 61px;
+	margin-bottom: 124px;
 	clear: both;
-	border-top: 1px solid #eeeeee;
+	border-top: 1px solid #eeeeee;	
 }
 
 .vert_text{
@@ -170,8 +178,7 @@ nav ul li a:hover {
 	height: 375px;
 	display: block;
 	float: left;
-	font-size: 15pt;
-	margin-top: 50px;	
+	font-size: 15pt;	
 }
 
 .vert_text h1 {
@@ -191,8 +198,7 @@ nav ul li a:hover {
 	background-color: #eeeeee;
 	color: #aaaaaa;
 	font-size: 21pt;
-	font-weight: bold;
-	margin-top: 50px;
+	font-weight: bold;	
 }
 
 .square p {
@@ -203,8 +209,7 @@ nav ul li a:hover {
 /*second vertical*/
 #second_vertical .square {
 	float: left;
-	height: 415px;
-	margin-top: 44px;	
+	height: 415px;	
 	clear: both;
 }
 
@@ -213,25 +218,24 @@ nav ul li a:hover {
 }
 
 #second_vertical .vert_text {
-	float: right;
-	margin-top: 44px;
+	float: right;	
 }
 
 #second_vertical {
 	height: 415px;
-	width: 1138px;
-	display: inline-block;
-	margin: 0px 15% 81px 15%;	
+	width: 1110px;
+	display: inline-block;	
+	margin-top: 0px;
+	margin-bottom: 81px;
 	clear: both;
-	border-top: 1px solid #eeeeee;
+	border-top: 1px solid #eeeeee;	
 }
 
 /*third vertical*/
 #third_vertical {
 	height: 456px;
-	width: 1138px;
-	display: inline-block;	
-	margin: 0px 15% 0px 15%;	
+	width: 1110px;
+	display: inline-block;		
 	clear: both;	
 }
 
@@ -248,7 +252,7 @@ footer {
 	display: block;
 	clear: both;
 	height: 164px;
-	width: 1138px;
+	width: 1110px;
 	border-top: 1px solid #eeeeee;
 	margin-top: 82px;
 	color: #777777;	
